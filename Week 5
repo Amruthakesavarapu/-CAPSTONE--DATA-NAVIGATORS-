@@ -1,0 +1,3 @@
+To ensure a robust analysis, we performed several key data cleaning steps. 
+First, we standardized column names across both datasets, ensuring that Medicare and Medicaid drug data had consistent formatting (e.g., using Brnd_Name for drug names). This step was essential for accurate merging and comparison.
+Next, we addressed missing values in spending columns by replacing NaN values with 0. This prevented data loss and ensured that all drugs were included in the analysis. Additionally, we filtered out drugs with zero spending across all years (2018-2022) to focus only on relevant specialty drugs.
