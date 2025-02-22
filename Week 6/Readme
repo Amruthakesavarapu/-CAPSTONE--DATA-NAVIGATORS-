@@ -1,0 +1,7 @@
+Week 6 document outlines the identification and validation of specialty drugs in Medicare and Medicaid spending datasets from 2018 to 2022. 
+The analysis involved loading the dataset into Pandas, standardizing drug names, and applying fuzzy string matching for accurate classification. 
+High-cost thresholds and specialty pharmacy criteria were used to define specialty drugs. 
+The identified drugs were validated against authoritative sources like CVS Specialty Pharmacy. 
+A final CSV listing the top 50 specialty drugs by spending was generated. 
+All identified drugs were confirmed as specialty medications, ensuring a reliable foundation for further cost analysis and policy recommendations.
+
