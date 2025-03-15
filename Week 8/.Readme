@@ -1,0 +1,5 @@
+This Week 8 document focuses on per-unit cost analysis and data validation for specialty drugs in 2022 Medicare and Medicaid spending datasets. The goal was to address pricing inefficiencies and support policy recommendations.
+
+Using Pandas, we extracted per-unit cost data for the top 50 verified drugs, standardized drug names, and applied fuzzy string matching to align datasets. Duplicate drug entries were aggregated to maintain a single record per drug.
+
+The cleaned dataset, with no missing data and reasonable cost differences, highlights significant pricing disparities where Medicare often overpays compared to Medicaid. This validated data supports further cost analysis and policy recommendations.
